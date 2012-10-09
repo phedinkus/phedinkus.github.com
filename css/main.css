@@ -3,13 +3,26 @@ body {
   background-position: initial initial;
   background-repeat: initial initial;
 }
-.name {
-  display: block;
-  float: left;
-  padding: 10px 20px 10px;
-  margin-left: -20px;
-  font-size: 20px;
+.main-container {
+  font-family: 'Muli', sans-serif;
+  width: 60%;
+  margin: 30px auto 50px;
+  position: relative;
 }
-.lead {
+header {
+  height: 60px;
+  margin: 10px 0px 40px 0px;
+  position: relative;
+}
+.contacts .nav li a{
+ text-shadow: none;
+ color: #08c;
+}
+
+.group {
+  margin-left: 10px;
+}
+.description{
   font-style: italic;
+  margin: 10px 0px 0px 15px;
 }
