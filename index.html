@@ -1,153 +1,17 @@
+---
+layout: default
+title: Katie Miller
+---
 
-<!DOCTYPE html>
-<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
-  <head>
-    <meta charset=utf-8 />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Katie Miller </title>
-    <link href="http://fonts.googleapis.com/css?family=Muli:400,300italic" rel="stylesheet" type="text/css">
-    <link href="./css/bootstrap.min.css" media='screen' rel='stylesheet' type='text/css' />
-    <link href="./css/bootstrap-responsive.min.css" media='screen' rel='stylesheet' type='text/css' />
-    <link href="./css/main.css" rel="stylesheet" media="screen" type="text/css" >
-    <link href="./css/print.css" rel="stylesheet" media="print" type="text/css" >
-    <link rel="shortcut icon" href="favicon2.ico" />
-    
-  </head>
-  <body>
-    <div class='main-container'>
-      <header class='header'>
-        <h1>katie miller</h1>
-        <div class='navbar contacts'>
-          <ul class='nav'>
-            <li><a href='http://github.com/phedinkus' title='github'>github</a></li>
-            <li><a href="mailto:kt@phedink.us">kt {at} phedink {dot} us</a></li>
-            <li><a href="http://www.twitter.com/phedinkus">twitter</a></li>
-          </ul>
-        </div>
+<div class='posts'>
+  <h4>POSTS</h4>
+  <ul class='unstyled'>
+    {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.content | truncate: 200 }}</p>
+      </li>
 
-      </header>
-      <div class='content'>
-        <section>
-          <h3>Skills</h3>
-          <div class='group'>
-            <p>
-              Ruby
-              &#8212;
-              RoR
-              &#8212;
-              JS: [ Large-scale MVC, Testing, AMD, Coffeescript, $ ]
-              &#8212;
-              Puppy Dog Wrangling
-              &#8212;
-              HTML5
-              &#8212;
-              CSS
-              &#8212;
-              Git
-              &#8212;
-              Solr
-              &#8212;
-              Agile
-              &#8212;
-              RSpec
-              &#8212;
-              MySQL
-              &#8212;
-              Unix
-              &#8212;
-              Party Dress Construction
-
-            </p>
-          </div>
-        </section>
-        <h3 id='wrench'>Jill-Of-All-Trades</h3>
-        <div class='group'>
-          <ul>
-            <li>Endless curiosity about design aesthetics with a strong emphasis of how the design concept is deeply affected by the overall composition.</li>
-            <li>Would not be chosen last for a team due to my big brain, loyalty and drive to work hard.</li>
-            <li>Diverse background in design, technical detail work, construction, and customer service.</li>
-            <li>When given a problem, I, like Vanilla Ice, will solve it. Although, with much better fashion sense. I'm a fast learner and analytical problem-solver with strong attention to detail.</li>
-          </ul>
-        </div>
-        <h3>Studies</h3>
-        <div class='group'>
-          <p>
-            Web Development/Computer Science ::
-            <strong>Portland Community College</strong>
-            <br
-            Louisville, KY
-            <br>
-            January 2010 to November 2010
-          </p>
-          <p>
-            Electrical Apprenticeship ::
-            <strong>IBEW</strong>
-            
-            <br
-            Portland, OR
-            <br>
-            July 2008 to April 2009
-          </p>
-          <p>
-            Engineering ::
-            <strong>University of Louisville</strong>
-            <br
-            Portland, OR
-            <br>
-            September 1999 to June 2003
-          </p>
-          <p>
-            Architecture ::
-            <strong>University of Cincinnati</strong>
-            <br
-            Cincinnati, OH
-            <br>
-            August 1997 to May 1999
-          </p>
-        </div>
-        <h3>Real World Learning</h3>
-        <div class='group'>
-          <p>
-            Web Developer/UX Designer ::
-            <strong>ELC Technologies</strong>
-            <br>
-            November 2010
-            to Current
-            <div class='description'>
-              <p>
-                Part of an Agile team responsible for developing <a href='http://www.cityeats.com'>CityEats.com</a> for Scripps Networks (eg. Food Network). Built as a competitor to Open Table, this app allows users to make reservations at restaurants through the web, mobile or a restaurant's personalized widget. The team also developed an extensive admin side to manage merchants and users as well as editorial content on the public facing site.
-              </p>
-              <p>
-                Lead on a team re-designing and developing a large-scale Javascript app for CityEats merchants to manage their restaurants.
-              </p>
-            </div>
-            <br>
-            Electrical Apprentice ::
-            <strong>Rosendin Electric</strong>
-            <br>
-            July 2008
-            to April 2009
-            <div class='description'>
-              <p>Contructed electrical installations in an industrial setting under the supervision of a liscensed electrician. Learned technical and mechanical requirements for the trade both on the job and in the classroom.
-                </p>
-            </div>
-            Political Organizer ::
-            <strong>Nurse Alliance</strong>
-            <br>
-            January 2006
-            to December 2006
-            <div class='description'></div>
-            <br>
-            Architectural Intern ::
-            <strong>Anrkom Moisan</strong>
-            <br>
-            March 2005
-            to December 2005
-            <div class='description'></div>
-            <br>
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+    {% endfor %}
+  </ul>
+</div>
