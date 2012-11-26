@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Just Let Go
+title: Current Jam
 ---
 
 <iframe class='img-center' width="560" height="315" src="http://www.youtube.com/embed/EXK0Ejzin4c" frameborder="0" allowfullscreen></iframe>

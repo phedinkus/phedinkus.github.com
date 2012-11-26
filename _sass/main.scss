@@ -10,12 +10,10 @@ a {
   text-shadow: none;
 }
 a:hover {
-  color: rgb(52, 150, 159);
+  color: #C536BF;
   text-decoration: none;
   text-shadow: none;
 }
-
-
 
 .main-container {
   width: 60%;
@@ -31,7 +29,7 @@ a:hover {
   header {
     padding-top: 40px;
     height: 60px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -40,7 +38,7 @@ a:hover {
     font-weight: bold;
     font-size: 2.5em;
     span {
-      color: #929292;
+      color: #C536BF;
       padding: 0 15px;
     }
 
@@ -102,45 +100,6 @@ a:hover {
   padding-bottom: 15px;
 }
 
-
-
-
-
-// .definition-container {
-//   background: white;
-//   -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-//   -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-//   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-//   z-index: 0;
-//   a {
-//     color: #34969F;
-//   }
-//   a:hover {
-//     color: #C536BF;
-//   }
-//   header {
-//     height: 40px;
-//     padding-top: 19px;
-//     width: 90%;
-//     margin: 0 auto;
-//   }
-//   .definition {
-//     display: inline;
-//     float: left;
-//   }
-//   .categories {
-//     list-style: none;
-//     float: right;
-//     li {
-//       display: inline;
-//       padding: 5px;
-//     }
-//   }
-
-// }
-
-
-
 .group {
   margin-left: 10px;
 }
@@ -149,6 +108,7 @@ a:hover {
   margin: 10px 0px 0px 15px;
 }
 
-// .footer {
-//   height: 50px;
-// }
+footer {
+  height: 50px;
+  text-align: center;
+}

@@ -4,7 +4,7 @@ title: Tincr + Sass
 published: false
 ---
 
-
+In an <a href="/2012/11/24/Better-work-habits-Chrome-Dev-Tools-and-Tincr/" target="_blank">earlier post</a> I talked about using Tincr to automate the frontend development workflow instead of flipping between the text editor and the browser. Tincr is great when you are working with straight CSS or JS but so often devs like the benefits of working with a compilation language, like Sass or Coffeescript.
 
 h4. Sass Setup
 
@@ -14,12 +14,9 @@ h4. Sass Setup
 
 !(img-center)/img/sass-experiment-settings.png(sass experiment settings)!
 
-!(img-left no-box-shadow)/img/css-location.png(css location)!
-
 *3. Enable <a href="http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/" target="_blank">Source Maps</a>.* Source maps are a breakdown of a compiled files initial location. When inspecting elements in the browser, the inspector lists the filename and the location of the css rule in the file. Since we want to edit the sass file, we'll need to tell the browser where to find it.
 
-
-<!-- !/img/enable-source-maps.png(enable source maps)!  -->
+!(img-left no-box-shadow)/img/css-location.png(css location)!
 
 To do this, enable source maps in the Chrome under the General Settings tab for the Developer Tools.
 
