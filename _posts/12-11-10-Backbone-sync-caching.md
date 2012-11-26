@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Backbone.sync caching
+title: Backbone.sync, Amplify.js and caching
+published: false
 ---
-### Backbone.sync, Amplify.js and caching
 
 During devlopment of an application using [Chaplin](https://github.com/chaplinjs/chaplin)/[Backbone](http://documentcloud.github.com/backbone/), our team realized we had a high number of HTTP requests for the same resource at the same time. The root cause was the way we had utilized the app architecture in Chaplin. Each routing change fires off a controller action which in turn instantiates a view and the view's model or collection. The controllers are sandboxed so each instance of model or collection needed to be isolated since it was broken down on routing changes. We discussed a number of options for caching between calls. I set off to research caching the response from the server in localstorage.
 

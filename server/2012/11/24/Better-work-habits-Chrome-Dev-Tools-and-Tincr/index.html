@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Better workflow habits, Chrome Dev Tools & Tincr </title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="/css/vendor/bootstrap.min.css" media='screen' rel='stylesheet' type='text/css' />
+    <link href="/css/vendor/bootstrap-responsive.min.css" media='screen' rel='stylesheet' type='text/css' />
+    <link href="/css/main.css" rel="stylesheet" media="screen" type="text/css" >
+    <!-- <link href="/css/print.css" rel="stylesheet" media="print" type="text/css" > -->
+    <link rel="shortcut icon" href="/favicon2.ico" />
+  </head>
+  <body>
+    <div class='header-container'>
+      <header>
+        <div class='name'><a href="/">phedinkus</a><span>katie miller</span></div>
+        <ul class='contacts'>
+          <li><a href="/about">about</a></li>
+          <li><a href="mailto:kt@phedink.us">email</a></li>
+          <li><a href='http://github.com/phedinkus' title='github'>github</a></li>
+          <li><a href="http://www.twitter.com/phedinkus">twitter</a></li>
+        </ul>
+      </header>
+    </div>
+<!--     <div class='definition-container'>
+      <header>
+        <div class='definition'>
+          <strong>phedinkus</strong>
+          <em>noun</em>
+          (obsolete, rare, nonce word) nonsense, malarkey
+        </div>
+        <ul class='categories'>
+          <li><a href="/music">music</a></li>
+          <li><a href="/code">code</a></li>
+          <li><a href="/craft">craft</a></li>
+        </ul>
+      </header>
+    </div> -->
+    <div class='main-container'>
+
+      <section class='post-container'>
+  <section class='post-header'>
+    <h3>Better workflow habits, Chrome Dev Tools & Tincr</h3>
+    <div class='post-date'>24 Nov 2012</div>
+  </section>
+  <section class='post-content'>
+    <p>Chrome&#8217;s Dev Tools are invaluable when debugging and fine-tuning JS and <span class="caps">CSS</span>. However, as my work has moved more and more to the frontend of projects, I have noticed how much I flip between the text editor and manually refreshing the page in my browser.</p>
+<p>There has to be a better way&#8230;</p>
+<p>Thankfully, there are number of options for automating the frontend development process.</p>
+<h4>Chrome&#8217;s Dev Tool&#8217;s native features.</h4>
+<p><img src="/img/save-css-in-chrome.png" class="img-right" title="save css in chrome" alt="save css in chrome" /></p>
+<p>My antiquated workflow for css involved copying the new styling and switching back to my text editor to paste it into the <span class="caps">CSS</span> file. Besides being too manual, one catch with this technique is the risk of eagerly refreshing the page and losing the changes. With some poking around and experimentation I soon discovered Chrome provides a way to edit the <span class="caps">CSS</span> or JS and save directly to the source file (Chrome&#8217;s Dev Tools are feature rich however I find their documentation lacking &#8212; this feature wasn&#8217;t obvious to me). When inspecting a file in the source tab, the secondary menu provides a way to save the file. Changes are seen immediately while you&#8217;re building your page and they can easily be saved without leaving the browser.</p>
+<p>Since there are a number of reasons for continuing to write the bulk of your code in your text editor (syntax highlighting, snippets, etc), Chrome&#8217;s native <span class="caps">CSS</span>/JS source file saving only covers the debugging/fine-tuning phase of development.</p>
+<h4>Enter Tincr.</h4>
+<p><a href="http://tin.cr" target="_blank">Tincr</a>, a free Chrome extension, couples the cability of saving changes in the dev tools directly to the source file with the feature of refreshing the files in the browser after saving from another text editor.</p>
+<p>Tincr is relatively easy to set up. Once you&#8217;ve installed it through the Chrome Web Store, follow its instructions for your corresponding project type.</p>
+<p><strong>What if I&#8217;m using a compilation method a la <a href="http://sass-lang.com/" target="_blank">Sass</a> or <a href="http://coffeescript.org" target="_blank">Coffeescript</a>?</strong></p>
+<p>Ahhhh, there in lies a problem. Having Tincr alter the <span class="caps">CSS</span> or JS source files won&#8217;t work since they are rewritten by the compilers. Luckily for Sass, there is a way&#8230;. Using another chrome extension we can edit the Sass files directly while using Tincr to watch the <span class="caps">CSS</span> files and reload the page.</p>
+<p>In my next post I&#8217;ll show you how to hook up Chrome&#8217;s Dev Tools and Tincr so they play nicely with Saas.</p>
+  </section>
+</section>
+
+
+    </div>
+    <div class='footer'>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+---
+layout: post
+title: Tincr + Sass
+published: false
+---
+
+
+
+h4. Sass Setup
+
+*1. Install Tincr.* The setup instructions vary depending on the type of project. (For the sake of brevity, the rest of this post will assume you are running with a simple http server or loading the files directly into the browser. There are instructions on how to setup Tincr for Rails projects but I haven't tried it yet so I can't speak to the difficulty.)
+
+*2. Enable "Support for Sass" in Chrome.*  Go to Chrome's experiment settings (chrome://flags/) and enable the "Developer Tools Experiments" and restart your browser. Open the developer tools settings and select "Support for SASS" under the new Experiments tab.
+
+!(img-center)/img/sass-experiment-settings.png(sass experiment settings)!
+
+!(img-left no-box-shadow)/img/css-location.png(css location)!
+
+*3. Enable <a href="http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/" target="_blank">Source Maps</a>.* Source maps are a breakdown of a compiled files initial location. When inspecting elements in the browser, the inspector lists the filename and the location of the css rule in the file. Since we want to edit the sass file, we'll need to tell the browser where to find it.
+
+
+<!-- !/img/enable-source-maps.png(enable source maps)!  -->
+
+To do this, enable source maps in the Chrome under the General Settings tab for the Developer Tools.
+
+Sadness: this doesn't work for html files -- next up, trying LiveReload!
+With all the rad features packed into Chrome, I find myself becoming the Chrome Evangelist in the office.
