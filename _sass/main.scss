@@ -93,7 +93,7 @@ a:hover {
     box-shadow: none;
   }
 
-  .tags {
+  .tag-list {
     list-style: none;
     float: right;
     li {
@@ -103,6 +103,20 @@ a:hover {
       display: inline;
     }
   }
+}
+
+.summary {
+  padding: 8px 0;
+}
+
+.archive-list {
+  list-style: none;
+  ul {
+    list-style: none;
+  }
+}
+.archive-list > li {
+  padding: 20px 0;
 }
 
 

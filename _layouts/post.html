@@ -4,8 +4,8 @@ layout: default
 <section class='post-container'>
   <section class='post-header'>
     <h3>{{page.title}}</h3>
-    <div class='post-date'>{{page.date | date_to_string}}</div>
-    <ul class='tags'>
+    <div class='post-date'>{{ page.date | date: "%b %d, %Y" }}</div>
+    <ul class='tag-list'>
       {% for tag in page.tags %}
         <li><a href="/tag/{{tag}}">{{tag}}</a></li>
       {% endfor %}
