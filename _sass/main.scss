@@ -92,9 +92,22 @@ a:hover {
   .no-box-shadow {
     box-shadow: none;
   }
+
+  .tags {
+    list-style: none;
+    float: right;
+    li {
+      background-color: #DFDFDF;
+      border-radius: 3px;
+      padding: 0 3px;
+      display: inline;
+    }
+  }
 }
 
+
 .post-date {
+  float: left;
   clear: both;
   color: gray;
   padding-bottom: 15px;

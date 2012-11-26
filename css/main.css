@@ -1,47 +1,58 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\000031}}
 body {
   background-image: url(../img/subtle_zebra_3d.png);
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\000038}}
 a {
   color: white;
   text-shadow: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000312}}
 a:hover {
   color: #C536BF;
   text-decoration: none;
   text-shadow: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000318}}
 .main-container {
   width: 60%;
   margin: 30px auto 50px auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000323}}
 .header-container {
   background: #333332;
   -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
   z-index: 10; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000329}}
   .header-container header {
     padding-top: 40px;
     height: 60px;
     width: 80%;
     margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000336}}
   .header-container .name {
     float: left;
     font-weight: bold;
     font-size: 2.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000340}}
     .header-container .name span {
       color: #C536BF;
       padding: 0 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000346}}
   .header-container .contacts {
     list-style: none;
     float: right;
     font-size: 1.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000351}}
     .header-container .contacts li {
       display: inline;
       padding-left: 15px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000358}}
 .post-container {
   background-color: white;
   padding: 5px 25px 15px 25px;
@@ -52,39 +63,61 @@ a:hover {
   -ms-box-shadow: 1px 1px 10px #ccc;
   -o-box-shadow: 1px 1px 10px #ccc;
   box-shadow: 1px 1px 10px #CCC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000368}}
   .post-container a {
     color: #34969F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000371}}
   .post-container a:hover {
     color: #C536BF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000374}}
   .post-container img {
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
     margin: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000378}}
   .post-container .img-left {
     float: left;
     margin-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000382}}
   .post-container .img-right {
     float: right;
     margin-right: 0;
     margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000387}}
   .post-container .img-center {
     display: block;
     margin-left: auto;
     margin-right: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000392}}
   .post-container .no-box-shadow {
     box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000396}}
+  .post-container .tags {
+    list-style: none;
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\0000399}}
+    .post-container .tags li {
+      background-color: #DFDFDF;
+      border-radius: 3px;
+      padding: 0 3px;
+      display: inline; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\00003109}}
 .post-date {
+  float: left;
   clear: both;
   color: gray;
   padding-bottom: 15px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\00003116}}
 .group {
   margin-left: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\00003119}}
 .description {
   font-style: italic;
   margin: 10px 0px 0px 15px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/behindthecurtain\/_sass\/main\.scss}line{font-family:\00003124}}
 footer {
   height: 50px;
   text-align: center; }
