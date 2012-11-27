@@ -10,7 +10,7 @@ summary: "Enable a way to save CSS and JS source files directly from Chrome. Gre
 
 Alongside <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a>, Chrome's Dev Tools are essential to my workflow when debugging and fine-tuning JS and CSS. As my work has moved more and more to the frontend of projects, I have noticed how much I flip between the text editor and manually refreshing the page in my browser.
 
-I though, _there has to be a better way..._
+I thought, _there has to be a better way..._
 
 Thankfully, there are number of options for automating the frontend development process.
 
