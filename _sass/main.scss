@@ -2,40 +2,66 @@ body {
   background-image: url(../img/subtle_zebra_3d.png);
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
+}
 
+// Bootstrap overrides
+.navbar-inverse .brand, .navbar, .brand {
+  text-shadow: none;
+}
+.navbar-inner {
+  min-height: 60px;
+  padding-top: 5px;
+  margin: 0;
+  background: #333332;
+  background-image: none;
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -webkit-border-radius: none;
+  -moz-box-shadow: none;
+}
+
+.navbar .nav > li > a {
+  color: white;
+  text-shadow: none
+}
+.navbar .nav > li > a:hover {
+  color: #C536BF;
 }
 
 a {
   color: white;
   text-shadow: none;
+  font-weight: normal;
 }
 a:hover {
   color: #C536BF;
   text-decoration: none;
   text-shadow: none;
 }
-
-.main-container {
-  width: 60%;
-  margin: 30px auto 50px auto;
+h1, h2, h3 {
+  font-weight: normal;
 }
 
-.header-container {
-  background: #333332;
+.name {
+  padding-top: 5px;
+  font-size: 2em;
+  span {
+    color: #C536BF;
+    padding: 0 15px;
+  }
+}
+
+#header-container {
+  // background: #333332;
   -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-  z-index: 10;
-  header {
-    padding-top: 40px;
-    height: 60px;
-    width: 80%;
-    margin: 0 auto;
-  }
-
+  // height: 60px;
   .name {
-    float: left;
-    font-size: 2.5em;
+    // float: left;
+    // font-size: 2.5em;
     span {
       color: #C536BF;
       padding: 0 15px;
@@ -53,6 +79,9 @@ a:hover {
     }
   }
 }
+// .main-container {
+//   padding-top: 40px;
+// }
 
 .post-container {
   background-color: white;
