@@ -23,6 +23,7 @@ module Jekyll
         site.tags.keys.each do |tag|
           write_tag_index(site, File.join(dir, tag), tag)
         end
+        # Make a list of tags and insert into partial for sidebar
       end
     end
 
