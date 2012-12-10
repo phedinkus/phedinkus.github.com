@@ -9,8 +9,8 @@ I'm a sucker for Swedish pop bands. Niki & The Dove's songs remind me of Fever R
 
 Enjoy!
 
-<iframe class='img-center' width="560" height="315" src="http://www.youtube.com/embed/eHuci2LUHPA" frameborder="0" allowfullscreen></iframe>
+div(video-container). <iframe class='img-center' width="560" height="315" src="http://www.youtube.com/embed/eHuci2LUHPA" frameborder="0" allowfullscreen></iframe>
 
-<iframe class='img-center' src="http://player.vimeo.com/video/29166192?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="213" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+div(video-container). <iframe class='img-center' src="http://player.vimeo.com/video/29166192?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="213" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-<iframe class='img-center' width="560" height="315" src="http://www.youtube.com/embed/VnexkG4RrtA" frameborder="0" allowfullscreen></iframe>
+div(video-container). <iframe class='img-center' width="560" height="315" src="http://www.youtube.com/embed/VnexkG4RrtA" frameborder="0" allowfullscreen></iframe>
