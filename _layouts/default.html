@@ -6,46 +6,44 @@
     <title> {{ page.title || "Katie Miller" }} </title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="/css/vendor/bootstrap.min.css" media='screen' rel='stylesheet' type='text/css' />
-    <link href="/css/main.css" rel="stylesheet" media="screen" type="text/css" >
-    <link href="/css/vendor/bootstrap-responsive.min.css" media='screen' rel='stylesheet' type='text/css' />
-    <!-- <link href="/css/print.css" rel="stylesheet" media="print" type="text/css" > -->
+    <link href="/css/main.css" rel="stylesheet" media="all" type="text/css" >
     <link rel="shortcut icon" href="/favicon2.ico" />
   </head>
-  <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container-fluid navbar-inverse">
-          <div class='name pull-left'><a href="/">phedinkus</a><span>katie miller</span></div>
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-right">
-              <li><a href="mailto:kt@phedink.us">email</a></li>
-              <li><a href='http://github.com/phedinkus' title='github'>github</a></li>
-              <li><a href="http://www.twitter.com/phedinkus">twitter</a></li>
-              <li><a href="http://www.linkedin.com/pub/katie-miller/2b/612/61">linkedin</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+  <body class={{page.class}}>
+    <div class="header">
+      <div class='container'>
+        <div class="row">
+            <div class='span12 name'><h1><a href="/">phedinkus</a><span>katie miller</span></h1></div>
         </div>
       </div>
     </div>
-    <div class='main-container container-fluid'>
-      <div class='row-fluid'>
-        <div class='span8'>
+    <div class='container'>
+      <div class='row'>
+        <div class='span9 posts'>
           {{content}}
         </div>
-        <div class='span4'>
-          <a class="twitter-timeline" data-dnt=true href="https://twitter.com/phedinkus" data-widget-id="277936720610197504">Tweets by @phedinkus</a>
+        <div class='span3 sidebar'>
+          <div class='contacts'>
+            <h3>contact kt:</h3>
+            <h4><a href="mailto:kt@phedink.us" title='email' class='email'>email</a></h4>
+            <h4><a href='http://github.com/phedinkus' title='github' class='github'>
+              github</a></h4>
+            <h4><a href="http://www.twitter.com/phedinkus" title='twitter'>twitter</a></h4>
+            <h4><a href="http://www.linkedin.com/pub/katie-miller/2b/612/61" title='linkedin'>linkedin</a></h4>
+            <hr>
+            <h4><a href="/resume">resume</a></h4>
+          </div>
+          <div class='twitter-feed'>
+             <a class="twitter-timeline" data-dnt=true href="https://twitter.com/phedinkus" data-widget-id="277936720610197504">Tweets by @phedinkus</a>
+          </div>
         </div>
       </div>
+      <div class='clearfix'></div>
       <footer>
         <p>© Katie Miller</p>
       </footer>
     </div>
+
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     <script type="text/javascript">
 

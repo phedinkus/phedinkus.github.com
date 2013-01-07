@@ -1,0 +1,58 @@
+.resume {
+  @media print {
+    body,  p, ul, .address, .contacts {
+      font-size:  0.758em;
+      border: none;
+    }
+    a, a:hover, a:visited {
+      color: black;
+      text-decoration: none;
+    }
+    .sidebar, .header, .header .container, footer {
+      display: none;
+    }
+    .address {
+      float: left;
+
+    }
+    .job header {
+      font-size: 1em;
+    }
+    .contacts {
+      float: right;
+      padding-right: 2em;
+    }
+    .content {
+      clear: both;
+    }
+
+  }
+
+  @media screen {
+    .resume-header {
+      display: none;
+    }
+    .job header {
+      font-size: 1.227em;
+
+    }
+  }
+  @media all {
+    ul li {
+      margin-left: 1.227em;
+    }
+    .job {
+      header {
+        margin-bottom: 1em;
+        .title {
+          font-style: italic;
+        }
+      }
+    }
+    .school {
+      .degree {
+        font-style: italic;
+      }
+    }
+  }
+}

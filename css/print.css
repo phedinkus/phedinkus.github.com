@@ -1,42 +1,4 @@
-h1, h2, h3 {
-  background: white;
-  color: black;
-  margin: 1px 1px; }
-
-.main-container {
-  font-family: 'Muli', sans-serif;
-  font-size: .8em;
-  width: 90%;
-  margin: 0px auto;
-  position: relative; }
-
-header {
-  position: relative;
-  height: 40px; }
-
-header h1 {
-  float: left; }
-
-.contacts {
-  float: right;
-  top: 20px; }
-  .contacts .nav li a {
-    text-shadow: none;
-    color: #08c; }
-
-.contacts a:after {
-  content: " (" attr(href) ") ";
-  font-size: 0.8em;
-  font-weight: normal; }
-
-.contacts ul {
-  list-style: none;
-  display: inline; }
-
-.description {
-  font-style: italic;
-  margin-left: 10px; }
-
-.content {
-  position: absolute;
-  top: 50px; }
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ktmiller\/Documents\/Code\/phedinkus\.github\.com\/_sass\/print\.scss}line{font-family:\000032}}
+  .sidebar, .header, .header .container {
+    display: none; } }
