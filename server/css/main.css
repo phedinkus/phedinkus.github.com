@@ -33,7 +33,7 @@
     font-style: italic; } }
 
 body {
-  font-family: "Oxygen", sans-serif; }
+  font-family: 'Oxygen', sans-serif; }
 
 a {
   color: white;
@@ -46,7 +46,7 @@ a:hover {
   text-shadow: none; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Donegal One", serif; }
+  font-family: 'Donegal One', serif; }
 
 p {
   font-size: 1em;
@@ -57,7 +57,7 @@ p {
   -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-  font-family: "Donegal One", serif;
+  font-family: 'Donegal One', serif;
   min-width: 940px; }
   .header .name span {
     color: #C536BF;
@@ -94,7 +94,7 @@ p {
   margin-bottom: 10px; }
 .posts .post-date {
   color: gray;
-  float: left; }
+  display: inline; }
 .posts .tags {
   float: right;
   font-size: 0.758em;

@@ -43,6 +43,7 @@ p {
       padding: 0 15px;
     }
   }
+  min-width: 940px;
 }
 
 .nav > li > a:hover {
@@ -82,14 +83,27 @@ p {
   .no-box-shadow {
     box-shadow: none;
   }
+  .post-header {
+    margin-bottom: 10px;
+  }
   .post-date {
-    margin: .618em 0;
+    // margin: .618em 0;
     // font-size: 1.227em;
     color: gray;
+    float: left;
   }
   .tags {
+    float: right;
     font-size:  0.758em;
-    margin-left: 20px;
+    max-width: 550px;
+    .tag {
+      float: right;
+      display: inline-block;
+      padding: 0 10px;
+      background: #eee;
+      border-radius: 10px;
+      margin: 0 3px 3px 3px;
+    }
   }
 
   code {

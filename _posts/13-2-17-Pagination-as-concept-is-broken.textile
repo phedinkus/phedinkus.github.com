@@ -1,0 +1,44 @@
+---
+layout: post
+title: Pagination as a concept is broken
+published: true
+tags: 
+- design
+- development
+---
+One of my first javascript assignments was to implement infinite scroll on a client's site. My solution, simply, was to use the generated pagination links to immediately fetch the next page while the user browsed the initial content and insert the  at the bottom of the page. As is often the case, in retrospect I can see where my solution could use refinement. 
+
+h4. Scrolling forever breaks down
+
+Recentely I read <a href="http://danwin.com/2013/01/infinite-scroll-fail-etsy/" title="">Dan Nguyen's analysis of the failure of infinite scroll on Etsy</a>, I started thinking more about pagination in general. Generally, from a user's perspective, I think pagination is awkward (I might even say broken). I personally love infinite scrolling. It fits the way I browse the internet. I find clicking on pagination links jarring to my browsing experience. Look look look click wait... look look look click wait.... vs scroll look scrollinggg looooking.. I'll admit, this works great when the site loads quickly. But throw in constraints (limited bandwidth or poor optimization) and infinite scrolling feels like I'm stuck in horrible stop and go traffic. 
+
+Other challenges present themselves when using infinite scrolling techniques. Etsy's experiment with infinite scrolling showed that 
+
+
+
+sort context related pagination:
+	- alpha
+	- date
+	- rating
+	- price
+
+Pagination link size and link unrelated to content
+Get content in chunks - bandwidth limitations - speed things up
+
+turn infinite scroll on and off
+
+inifinite scroll is great when you are quickly browsing visual items - context/engagement
+
+infinite scroll zone out
+
+ways to "bookmark" things to come back too - dependent on habit
+
+controlling results per page
+
+once I've clicked past the first 3 pages how easily is something findable through a traditional paginaiton interface - depends - sense of orientation
+
+losing orientation of pagination links while scrolling down
+
+refreshing with infinite scroll/drilling down and coming back out - losing your place
+
+Sausage plugin: https://github.com/christophercliff/sausage

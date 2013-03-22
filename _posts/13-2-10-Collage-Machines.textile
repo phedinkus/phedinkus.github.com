@@ -1,0 +1,9 @@
+---
+layout: post
+title: Collage Machine
+tags:
+- music
+---
+I love this form of collage. Layer on layer each items builds to something new. A new dream. A new world. The transformation is unreal. 
+
+div(video-container). <iframe src="http://player.vimeo.com/video/58115286" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
