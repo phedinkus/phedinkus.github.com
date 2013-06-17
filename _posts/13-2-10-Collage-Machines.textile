@@ -6,4 +6,4 @@ tags:
 ---
 I love this form of collage. Layer on layer each items builds to something new. A new dream. A new world. The transformation is unreal. 
 
-div(video-container). <iframe src="http://player.vimeo.com/video/58115286" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+div(video-container vimeo). <iframe src="http://player.vimeo.com/video/58115286" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

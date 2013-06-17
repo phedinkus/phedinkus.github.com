@@ -4,47 +4,41 @@
     <meta charset=utf-8 />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> {{ page.title || "Katie Miller" }} </title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Open+Sans' rel='stylesheet' type='text/css'>
     <link href="/css/vendor/bootstrap.min.css" media='screen' rel='stylesheet' type='text/css' />
-    <link href="/css/main.css" rel="stylesheet" media="all" type="text/css" >
+    <link href="/css/remodel.css" rel="stylesheet" media="all" type="text/css" >
     <link rel="shortcut icon" href="/favicon2.ico" />
   </head>
   <body class={{page.class}}>
-    <div class="header">
-      <div class='container'>
+    <header id="" class="header">
+      <div class="container">
         <div class="row">
-            <div class='span12 name'><h1><a href="/">phedinkus</a><span>katie miller</span></h1></div>
-        </div>
-      </div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='span9 posts'>
-          {{content}}
-        </div>
-        <div class='span3 sidebar'>
-          <div class='contacts'>
-            <h3>contact kt:</h3>
-            <h4><a href="mailto:kt@phedink.us" title='email' class='email'>email</a></h4>
-            <h4><a href='http://github.com/phedinkus' title='github' class='github'>
-              github</a></h4>
-            <h4><a href="http://www.twitter.com/phedinkus" title='twitter'>twitter</a></h4>
-            <h4><a href="http://www.linkedin.com/pub/katie-miller/2b/612/61" title='linkedin'>linkedin</a></h4>
-            <hr>
-            <h4><a href="/resume">resume</a></h4>
-          </div>
-          <div class='twitter-feed'>
-             <a class="twitter-timeline" data-dnt=true href="https://twitter.com/phedinkus" data-widget-id="277936720610197504">Tweets by @phedinkus</a>
+          <div class="span10 offset1">
+            <h3 class="pull-left">phedinkus</h3>
+            <ul class="site-nav pull-right">
+              <li><a href="" title="">about katie</a></li>
+              <li><a href="" title="">blog</a></li>
+            </ul>
           </div>
         </div>
+
       </div>
-      <div class='clearfix'></div>
+
+    </header>
+    <!-- /header -->
+    <div class="container">
+      {{content}}
+
+
+
+      
+    
       <footer>
         <p>© Katie Miller</p>
       </footer>
     </div>
 
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
