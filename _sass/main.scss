@@ -1,174 +1,139 @@
-@import url(http://fonts.googleapis.com/css?family=Donegal+One|Oxygen:400,300);
-@import 'resume';
+$font-size: 16px;
+$line-height: 24px;
+$h1-font-size: 3 * $font-size;
+$h2-font-size: 2.5 * $font-size;
+$h3-font-size: 2 * $font-size;
+$h4-font-size: 1.5 * $font-size;
+$h5-font-size: 1 * $font-size;
+
+@function px_to_em($desired_px, $context_px: $font-size) {
+    @return ($desired_px / $context_px) * 1em;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td {  
+	margin:0; 
+	padding:0; 
+}
 
 body {
-  // background-image: url(../img/grid.png);
-  // background-position: top;
-  // background-repeat: repeat-y;
-  font-family: 'Oxygen', sans-serif;
-
+	font-family: 'Open Sans', sans-serif;
+	// background: url(/img/underline.gif);
+	font-size: 1em;
 }
 
-// Bootstrap overrides
+p{
+	font-size: px_to_em($font-size);
+	line-height: px_to_em($line-height); 
+	margin-top: px_to_em($line-height);
+	margin-bottom: px_to_em($line-height);
+}
+h1,h2,h3,h4,h5, .header, .sidebar, .site-nav {
+	font-family: 'Libre Baskerville', serif;
+}
 a {
-  color: white;
-  text-shadow: none;
-  font-weight: normal;
-}
-a:hover {
-  color: #C536BF;
-  text-decoration: none;
-  text-shadow: none;
-}
-h1, h2, h3, h4, h5 {
-  font-family: 'Donegal One', serif;
+  color: #34969F;
+	&:hover {
+	  color: #C536BF;
+	  text-decoration: none;
+	}
 }
 
-p {
-  font-size: 1em;
-  line-height: 1.5em;
+h1 {
+	font-size: px_to_em($h1-font-size); // should be 3em, 3 * the font_size
+	line-height: px_to_em(2*$line-height, $h1-font-size); // relative to the font size in the selector
+	margin-top: px_to_em($line-height, $h1-font-size); 
+	margin-bottom: px_to_em($line-height, $h1-font-size);
+
 }
 
-// Begin content css
+h2 {
+	font-size: px_to_em($h2-font-size);
+	line-height: px_to_em(2*$line-height, $h2-font-size);
+	margin-top: px_to_em($line-height, $h2-font-size);
+	margin-bottom: px_to_em($line-height, $h2-font-size);
+	// This checks out
+}
+
+h3 {
+	font-size: px_to_em($h3-font-size); 
+	line-height: px_to_em(2*$line-height, $h3-font-size);
+	margin-top: px_to_em($line-height, $h3-font-size);
+	margin-bottom: px_to_em($line-height, $h3-font-size);
+}
+
+h4 {
+	font-size: px_to_em($h4-font-size); 
+	line-height: px_to_em($line-height, $h4-font-size);
+	margin-top: px_to_em($line-height, $h4-font-size);
+	margin-bottom: px_to_em($line-height, $h4-font-size);
+}
+
+h5 {
+	font-size: px_to_em($h5-font-size); 
+	line-height: px_to_em($line-height, $h5-font-size);
+	margin-top: px_to_em($line-height, $h5-font-size);
+	margin-bottom: px_to_em($line-height, $h5-font-size);
+}
 
 .header {
-  background: #333332;
-  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-  font-family: 'Donegal One', serif;
-  .name {
-    span {
-      color: #C536BF;
-      padding: 0 15px;
-    }
-  }
-  min-width: 940px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+
+	.title {
+		float: left;
+		font-size: px_to_em($h3-font-size);
+		line-height: px_to_em(2*$line-height, $h3-font-size);
+	}
+	.site-nav {
+		list-style: none;
+		margin-top: 12px;
+
+		li {
+			line-height: 24px;
+			margin-top: 12px;
+			display: inline;
+			font-style: italic;
+			margin-right: 20px;
+		}
+	}
 }
 
-.nav > li > a:hover {
-  color: #C536BF;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  a {
-    color: #34969F;
-  }
-  a:hover {
-    color: #C536BF;
-  }
-}
-
-.posts {
-  img {
-    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
-    margin: 1.618em;
-  }
-  .img-left {
-    float: left;
-    margin-left: 0;
-  }
-  .img-right {
-    float: right;
-    margin-right: 0;
-    margin-top: 0;
-  }
-  .img-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .no-box-shadow {
-    box-shadow: none;
-  }
-  .post-header {
-    margin-bottom: 10px;
-  }
-  .post-date {
-    // margin: .618em 0;
-    // font-size: 1.227em;
-    color: gray;
-    float: left;
-  }
-  .tags {
-    float: right;
-    font-size:  0.758em;
-    max-width: 550px;
-    .tag {
-      float: right;
-      display: inline-block;
-      padding: 0 10px;
-      background: #eee;
-      border-radius: 10px;
-      margin: 0 3px 3px 3px;
-    }
-  }
-
-  code {
-    font-size: 1em;
-  }
-  .inset {
-    margin-left: 20px;
-  }
-
-  .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 80px;
-    margin-bottom: 10px;
-  }
-  .video-container iframe,
-  .video-container object,
-  .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-}
 .sidebar {
-  .contacts {
-    padding-bottom: 1.618em;
-    a {
-      padding-left: 1.618em;
-    }
-  }
+	color: rgba(0,0,0,.5);
+	font-style: italic;
+	font-size: px_to_em(12px);
+	line-height: px_to_em(24px, 12px);
+	margin-top: px_to_em(36px, 12px);
+}
+.post-tags {
+	margin-top: px_to_em(36px, 12px);
+	i {
+		float: left;
+		padding-top: 5px;
+		color: rgba(0,0,0,.5);
+	}
+	ul {
+		list-style: none;
+		margin-left: 25px;
+		li {
+			line-height: 2em;
+		}
+	}
 }
 
-.summary {
-  padding: 8px 0;
-}
-
-.archive-list {
-  list-style: none;
-  ul {
-    list-style: none;
-  }
-}
-.archive-list > li {
-  padding: 20px 0;
+.post {
+	margin-bottom: 3em;
 }
 
 
-// .post-date {
-//   float: left;
-//   // clear: both;
-//   color: gray;
-//   padding-bottom: 15px;
-// }
-
-.group {
-  margin-left: 10px;
+.video-container {
+	text-align: center;
+	&.vimeo {
+		padding-top: px_to_em(7px);
+		padding-bottom: px_to_em(10px);
+	}
 }
-.description{
-  font-style: italic;
-  margin: 10px 0px 0px 15px;
-}
-
 footer {
-  height: 50px;
-  text-align: center;
+	text-align: center;
 }
+

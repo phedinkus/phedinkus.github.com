@@ -5,4 +5,4 @@ tags:
 - music
 - current jam
 ---
-div(video-container). <iframe class='img-center' width="560" height="315" src="http://www.youtube.com/embed/EXK0Ejzin4c" frameborder="0" allowfullscreen></iframe>
+div(video-container). <iframe width="560" height="315" src="http://www.youtube.com/embed/EXK0Ejzin4c" frameborder="0" allowfullscreen></iframe>

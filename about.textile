@@ -1,0 +1,10 @@
+---
+layout: default
+title: About Katie Miller
+---
+
+p=. <a href="http://twitter.com/phedinkus" title="twitter"><i class="icon-twitter icon-4x"></i></a>
+
+p=. <a href="http://github.com/phedinkus" title="github"><i class="icon-github icon-4x"></i></a>
+
+p=. <a href="http://www.linkedin.com/in/katharinmiller/" title=""><i class="icon-linkedin icon-4x"></i></a>

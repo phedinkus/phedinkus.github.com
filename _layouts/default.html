@@ -6,17 +6,18 @@
     <title> {{ page.title || "Katie Miller" }} </title>
     <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Open+Sans' rel='stylesheet' type='text/css'>
     <link href="/css/vendor/bootstrap.min.css" media='screen' rel='stylesheet' type='text/css' />
-    <link href="/css/remodel.css" rel="stylesheet" media="all" type="text/css" >
+    <link href="/css/vendor/font-awesome.min.css" media='screen' rel='stylesheet' type='text/css' />
+    <link href="/css/main.css" rel="stylesheet" media="all" type="text/css" >
     <link rel="shortcut icon" href="/favicon2.ico" />
   </head>
   <body class={{page.class}}>
     <header id="" class="header">
       <div class="container">
         <div class="row">
-          <div class="span10 offset1">
-            <h3 class="pull-left">phedinkus</h3>
+          <div class="span12">
+            <a href="/" title="home" class="title">phedinkus</a>
             <ul class="site-nav pull-right">
-              <li><a href="" title="">about katie</a></li>
+              <li><a href="/about.html" title="about katie">about katie</a></li>
               <li><a href="" title="">blog</a></li>
             </ul>
           </div>
@@ -28,11 +29,6 @@
     <!-- /header -->
     <div class="container">
       {{content}}
-
-
-
-      
-    
       <footer>
         <p>© Katie Miller</p>
       </footer>
@@ -54,5 +50,7 @@
     </script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.baseline.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>

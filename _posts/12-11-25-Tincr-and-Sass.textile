@@ -12,11 +12,11 @@ h4. Sass Setup
 
 *2. Enable "Support for Sass" in Chrome.*  Go to Chrome's experiment settings (chrome://flags/) and enable the "Developer Tools Experiments" and restart your browser. Open the developer tools settings and select "Support for SASS" under the new Experiments tab.
 
-!(img-center)/img/sass-experiment-settings.png(sass experiment settings)!
+div=. !/img/sass-experiment-settings.png(sass experiment settings)!
 
 *3. Enable <a href="http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/" target="_blank">Source Maps</a>.* Source maps are a breakdown of a compiled files initial location. When inspecting elements in the browser, the inspector lists the filename and the location of the css rule in the file. Since we want to edit the sass file, we'll need to tell the browser where to find it.
 
-!(img-left no-box-shadow)/img/css-location.png(css location)!
+div=. !/img/css-location.png(css location)!
 
 To do this, enable source maps in the Chrome under the General Settings tab for the Developer Tools.
 
