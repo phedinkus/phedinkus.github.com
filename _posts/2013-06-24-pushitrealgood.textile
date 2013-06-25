@@ -13,7 +13,3 @@ bc=. afplay ~/.git/pushitrealgood.m4a
  <source src="path-to-oga.oga" type="audio/ogg" />
  <p>Your browser does not support HTML5 audio.</p>
  </audio>
- <p>
- <strong>Download Audio:</strong>
- <a href="/pushitrealgood.m4a">M4A</a>
- </p>
