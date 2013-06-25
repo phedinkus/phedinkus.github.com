@@ -1,0 +1,19 @@
+---
+layout: post
+title: Fun with git post commit hooks
+
+---
+
+Almost immediately after I started programming I aliased 'git push origin master' to 'git pushitgood.' Tonight I finalized my masterpiece my making it a git post commit hook and having it play a snippet of Salt 'n Pepa's Push It Good.
+
+bc=. afplay ~/.git/pushitrealgood.m4a
+
+<audio controls preload="none" style="width:480px;">
+ <source src="/pushitrealgood.m4a" type="audio/mp4" />
+ <source src="path-to-oga.oga" type="audio/ogg" />
+ <p>Your browser does not support HTML5 audio.</p>
+ </audio>
+ <p>
+ <strong>Download Audio:</strong>
+ <a href="/pushitrealgood.m4a">M4A</a>
+ </p>
