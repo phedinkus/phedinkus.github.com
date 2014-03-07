@@ -1,2 +1,5 @@
-safe:        false
-textile_ext:   textile
+name:         phedinkus
+description:  Experiences as I see them
+url:          http://phedink.us
+safe:         false
+textile_ext:  textile
