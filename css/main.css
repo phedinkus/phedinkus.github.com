@@ -96,5 +96,9 @@ h5 {
     padding-top: 0.4375em;
     padding-bottom: 0.625em; }
 
+.text-center {
+  text-align: center !important;
+}
+
 footer {
   text-align: center; }
