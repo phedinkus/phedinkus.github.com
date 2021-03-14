@@ -2,9 +2,9 @@
 /*!
 * Baseline.js 1.0
 *
-* Copyright 2012, Daniel Eden http://daneden.me
+* Copyright 2012, Daniel Eden https://daneden.me
 * Released under the WTFPL license
-* http://sam.zoy.org/wtfpl/
+* https://sam.zoy.org/wtfpl/
 *
 * Date: Wed June 20 11:39:00 2012 GMT
 */
@@ -19,8 +19,8 @@
 			var $this = $(this); // Set the images as objects
 
 			var setbase = function(breakpoints) { // The fun starts here
-			
-				// Check if a single value or multiple breakpoints are given                
+
+				// Check if a single value or multiple breakpoints are given
 		                if (typeof breakpoints === 'number') {
 		                    base = breakpoints;
 		                } else if (typeof breakpoints === 'object') {
@@ -33,7 +33,7 @@
 		                        }
 		                    }
 		                }
-                
+
 				$this.css('maxHeight', 'none'); // Remove old max-height so that we can resize up as well as down
 				tall = $this.height(); // Grab the height
 				newHeight = Math.floor(tall / base) * base; // Make up a new height based on the baseline

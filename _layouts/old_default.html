@@ -3,8 +3,8 @@
   <head>
     <meta charset=utf-8 />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> {{ page.title || "Katie Miller" }} </title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <title> {{ page.title or "Katie Miller" }} </title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="/css/vendor/bootstrap.min.css" media='screen' rel='stylesheet' type='text/css' />
     <link href="/css/remodel.css" rel="stylesheet" media="all" type="text/css" >
     <link rel="shortcut icon" href="/favicon2.ico" />
@@ -26,10 +26,10 @@
           <div class='contacts'>
             <h3>contact kt:</h3>
             <h4><a href="mailto:kt@phedink.us" title='email' class='email'>email</a></h4>
-            <h4><a href='http://github.com/phedinkus' title='github' class='github'>
+            <h4><a href='https://github.com/phedinkus' title='github' class='github'>
               github</a></h4>
-            <h4><a href="http://www.twitter.com/phedinkus" title='twitter'>twitter</a></h4>
-            <h4><a href="http://www.linkedin.com/pub/katie-miller/2b/612/61" title='linkedin'>linkedin</a></h4>
+            <h4><a href="https://www.twitter.com/phedinkus" title='twitter'>twitter</a></h4>
+            <h4><a href="https://www.linkedin.com/pub/katie-miller/2b/612/61" title='linkedin'>linkedin</a></h4>
             <hr>
             <h4><a href="/resume">resume</a></h4>
           </div>
@@ -53,7 +53,7 @@
 
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
