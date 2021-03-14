@@ -6,28 +6,31 @@ $h3-font-size: 2 * $font-size;
 $h4-font-size: 1.5 * $font-size;
 $h5-font-size: 1 * $font-size;
 
+@import "bootstrap/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
 @function px_to_em($desired_px, $context_px: $font-size) {
     @return ($desired_px / $context_px) * 1em;
 }
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td {  
-	margin:0; 
-	padding:0; 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td {
+	margin:0;
+	padding:0;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	// background: url(/img/underline.gif);
 	font-size: 1em;
 }
 
 p{
 	font-size: px_to_em($font-size);
-	line-height: px_to_em($line-height); 
+	line-height: px_to_em($line-height);
 	margin-top: px_to_em($line-height);
 	margin-bottom: px_to_em($line-height);
 }
-h1,h2,h3,h4,h5, .header, .sidebar, .site-nav {
+h1,h2,h3,h4,h5, .navbar, .sidebar, .site-nav {
 	font-family: 'Libre Baskerville', serif;
 }
 a {
@@ -41,7 +44,7 @@ a {
 h1 {
 	font-size: px_to_em($h1-font-size); // should be 3em, 3 * the font_size
 	line-height: px_to_em(2*$line-height, $h1-font-size); // relative to the font size in the selector
-	margin-top: px_to_em($line-height, $h1-font-size); 
+	margin-top: px_to_em($line-height, $h1-font-size);
 	margin-bottom: px_to_em($line-height, $h1-font-size);
 
 }
@@ -55,21 +58,21 @@ h2 {
 }
 
 h3 {
-	font-size: px_to_em($h3-font-size); 
+	font-size: px_to_em($h3-font-size);
 	line-height: px_to_em(2*$line-height, $h3-font-size);
 	margin-top: px_to_em($line-height, $h3-font-size);
 	margin-bottom: px_to_em($line-height, $h3-font-size);
 }
 
 h4 {
-	font-size: px_to_em($h4-font-size); 
+	font-size: px_to_em($h4-font-size);
 	line-height: px_to_em($line-height, $h4-font-size);
 	margin-top: px_to_em($line-height, $h4-font-size);
 	margin-bottom: px_to_em($line-height, $h4-font-size);
 }
 
 h5 {
-	font-size: px_to_em($h5-font-size); 
+	font-size: px_to_em($h5-font-size);
 	line-height: px_to_em($line-height, $h5-font-size);
 	margin-top: px_to_em($line-height, $h5-font-size);
 	margin-bottom: px_to_em($line-height, $h5-font-size);

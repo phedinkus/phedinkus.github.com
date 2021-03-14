@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Real World Javascript Performance Tips
+permalink: /2015/07/21/Real-World-Javascript-Tips
 tags:
 - development
 - javascript

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What I Don't Know
+permalink: /2014/03/05/What-I-Do-Not-Know
 tags:
 - development
 - learning to code
@@ -8,7 +9,7 @@ tags:
 
 <p>I've had a couple of moments today where I realized I should speak up about things I don't know. What I realized is that it's a signal that I need to ask for help and/or learn something new. I also realized that I'm not alone in how I feel. While it's scary to say "I don't know how to do something", really, speaking up is a strength. It gives voice to those people who feel the same way and haven't spoken up yet, or may never speak up. And points to assumptions and blindspots in education about the work we do. It's ok to ask the question (Or ye ole proverb: There is no dumb question). Especially in a space where we so often expect everyone to be an expert. There is probably always something to learn from someone else's questions.</p>
 
-<p>So, here's what I don't know. Without any answers.
+<p>So, here's what I don't know. Without any answers.</p>
 
 <!--post break-->
 

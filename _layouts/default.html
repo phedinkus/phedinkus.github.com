@@ -11,26 +11,22 @@
       {% endif %}
     </title>
     <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Open+Sans' rel='stylesheet' type='text/css'>
-    <link href="/css/vendor/bootstrap.min.css" media='screen' rel='stylesheet' type='text/css' />
-    <link href="/css/vendor/font-awesome.min.css" media='screen' rel='stylesheet' type='text/css' />
-    <link href="/css/main.css" rel="stylesheet" media="all" type="text/css" >
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="shortcut icon" href="/favicon2.ico" />
   </head>
   <body class={{page.class}}>
-    <header id="" class="header">
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <a href="/" title="home" class="title">phedinkus</a>
-            <ul class="site-nav pull-right">
-              <li><a href="/about" title="about katie">about katie</a></li>
-              <li><a href="/" title="">blog</a></li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
+    <header class="navbar navbar-expand-md">
+      <nav class="container">
+        <a href="/" class="navbar-brand p-0 me-2">phedinkus</a>
+        <ul class="navbar-nav ms-md-auto">
+          <li class="nav-item">
+            <a href="/about" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="/blog" class="nav-link">blog</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- /header -->
     <div class="container">
@@ -54,9 +50,5 @@
       })();
 
     </script>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/jquery.baseline.js"></script>
-    <script src="/js/main.js"></script>
   </body>
 </html>
