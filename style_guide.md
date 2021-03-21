@@ -2,15 +2,15 @@
 layout: default
 ---
 
-h1. Heading 1
+# Heading 1
 
-h2. Heading 2
+## Heading 2
 
-h3. Heading 3
+### Heading 3
 
-h4. Heading 4
+#### Heading 4
 
-h5. Heading 5
+##### Heading 5
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
