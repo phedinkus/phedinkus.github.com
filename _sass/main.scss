@@ -54,6 +54,11 @@ a {
 	font-style: italic;
 	font-size: px_to_em(12px);
 }
+.blockquote {
+	@extend .border-start;
+	@extend .px-3; 
+	@extend .border-4;
+}
 
 .video-container {
 	text-align: center;
