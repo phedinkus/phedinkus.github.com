@@ -10,4 +10,4 @@ tags:
 [These face shields make a person look like an android.](https://www.designboom.com/design/zghybd-polarized-protective-face-shield-09-27-2021/)
 
 
-<img src="/assets/img/face-shield.jpeg" alt="enable source maps">
+<img class="img-fluid" src="/assets/img/face-shield.jpeg" alt="enable source maps">

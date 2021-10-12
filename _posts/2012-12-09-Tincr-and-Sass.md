@@ -22,7 +22,7 @@ tags:
 
   <li>
     <p><strong>Enable "Support for Sass".</strong> Open the developer tools settings and select "Support for SASS" under the new Experiments tab.</p>
-    <img src="/assets/img/sass-experiment-settings.png" alt="sass experiment settings">
+    <img class="img-fluid" src="/assets/img/sass-experiment-settings.png" alt="sass experiment settings">
   </li>
 
   <li>
@@ -40,7 +40,7 @@ tags:
   <li>
     <p><strong>Enable Source Maps.</strong> <a href="https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/" target="_blank">Source Maps</a> are a breakdown of a compiled files initial location. Since we're including the Sass file info in compilation, we'll need to make sure the browser can read that info. To do this, enable source maps in the Chrome under the General Settings tab for the Developer Tools.</p>
 
-    <img src="/assets/img/enable-source-maps.png" alt="enable source maps">
+    <img class="img-fluid" src="/assets/img/enable-source-maps.png" alt="enable source maps">
 
     <p>We can begin editing the file by either clicking the Sass file location shown in the inspector or finding it in the Sources tab in the Developer Tools.</p>
     <img src="/assets/img/sass-location.png" alt="sass location">

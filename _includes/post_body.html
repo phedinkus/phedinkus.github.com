@@ -1,0 +1,19 @@
+<div class="row mb-3">
+  <div class="col">
+    <datetime class="post-date mb-2">{{ include.date | date: "%b %d, %Y" }}</datetime>
+    <h3><a href="{{ include.url }}">{{ include.title }}</a></h3>
+    {{ include.content | split:  '<!--post break-->' | first}}
+    {% if include.content contains '<!--post break-->' %}
+      <a href="{{include.url}}">Continue Reading →</a>
+    {% endif %}
+    
+    {% if include.tags %}
+      <ul class="list-inline post-tags mt-1">
+        <li class="list-inline-item"><i class="bi-tag-fill"></i></li>
+        {% for tag in include.tags %}
+        <li class="list-inline-item"><a href="/tag/{{tag}}">{{tag}}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>

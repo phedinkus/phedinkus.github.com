@@ -18,7 +18,7 @@ tags:
 
 <h4>First up, Chrome Dev Tools' native features.</h4>
 
-<img src="/assets/img/save-css-in-chrome.png" alt="save css in chrome" >
+<img class="img-fluid" src="/assets/img/save-css-in-chrome.png" alt="save css in chrome" >
 
 <p>My antiquated workflow for css involved copying the new styling and switching back to my text editor to paste it into the CSS file. Besides being too manual, this technique leaves the risk of eagerly refreshing the page and losing changes. With some poking around and experimentation I soon discovered Chrome provides a way to edit the CSS or JS and save directly to the source file (even though Chrome's Dev Tools are feature rich, I find their documentation lacking -- this feature wasn't obvious to me). When inspecting a file in the source tab, the secondary menu provides a way to save the file. Changes are seen immediately while you're building your page and they can easily be saved without leaving the browser.</p>
 

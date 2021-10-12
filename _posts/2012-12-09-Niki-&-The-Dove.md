@@ -12,8 +12,8 @@ tags:
 
 <p>Enjoy!</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eHuci2LUHPA" frameborder="0" allowfullscreen></iframe>
+<iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/eHuci2LUHPA" frameborder="0" allowfullscreen></iframe>
 
-<iframe src="https://player.vimeo.com/video/29166192?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="560" height="238" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe class="img-fluid" src="https://player.vimeo.com/video/29166192?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="560" height="238" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VnexkG4RrtA" frameborder="0" allowfullscreen></iframe>
+<iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/VnexkG4RrtA" frameborder="0" allowfullscreen></iframe>

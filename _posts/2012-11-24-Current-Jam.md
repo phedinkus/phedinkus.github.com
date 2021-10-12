@@ -6,4 +6,4 @@ tags:
 - music
 - current jam
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EXK0Ejzin4c" frameborder="0" allowfullscreen></iframe>
+<iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/EXK0Ejzin4c" frameborder="0" allowfullscreen></iframe>
