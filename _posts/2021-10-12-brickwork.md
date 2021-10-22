@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Brickwork
-permalink: /2021/10/012/brickwork
-date: 2021-10-08 11:57:00 +0200
+permalink: /2021/10/12/brickwork
+date: 2021-10-12 11:57:00 +0200
 tags:
 - links
 - architecture
