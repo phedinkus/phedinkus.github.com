@@ -1,8 +1,8 @@
 ---
 layout: post
 title: PDX Visit Reflections  
-permalink: /2021/11/18/pdx-visit-reflections
-date: 2021-11-29 14:48:00 +0700
+permalink: /2022/11/29/pdx-visit-reflections
+date: 2022-11-29 14:48:00 +0700
 tags:
 - mental health
 
