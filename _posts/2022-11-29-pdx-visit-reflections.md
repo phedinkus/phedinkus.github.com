@@ -9,7 +9,7 @@ tags:
 ---
 **Caveat: I wrote this initially as [a thread in Mastadon](https://hachyderm.io/@phedinkus/109424484028397633)**
 
-In 2018 I moved to Berlin, Germany from Portland, OR. Moving half way around the world by myself to a city where I knew no one was difficult event but I did it. It's a huge accomplishment to tackle a dream like that, especially with a global pandemic in the middle of it. Recently I've been in PDX to visit with the people I love and have have deep connections to but don't seen often enough. It's been both good and difficult. Here's my reflection.
+In 2018 I moved to Berlin, Germany from Portland, OR. Moving half way around the world by myself to a city where I knew no one was a difficult event but I did it. It's a huge accomplishment to tackle a dream like that, especially with a global pandemic in the middle of it. Recently I've been in PDX to visit with the people I love and have have deep connections to but don't seen often enough. It's been both good and difficult. Here's my reflection.
 
 I am so happy I brought my folding bike. I don’t have a car here so having a bike has given me the freedom to easily roll around town with my dog. There are very few things that top riding your bike on a summer evening with friends. I was also stoked to see more bike infrastructure in PDX. 
 
