@@ -2,7 +2,7 @@
 layout: post
 title: Dev Container Opinions
 permalink: /2025/04/01/devcontainer
-date: 2025-04-01 13:59:00 -0100
+date: 2025-04-01 14:30:45 +0200
 tags:
   - development
 ---
